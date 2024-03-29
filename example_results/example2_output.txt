@@ -1,0 +1,16 @@
+Running example 2. See http://www.slimsuite.unsw.edu.au/teaching/upgma/ for more details on the data and expected results.
+
+1: A-turtle
+2: B-man
+3: C-tuna
+4: D-chicken
+5: E-moth
+6: F-monkey
+7: G-dog
+
+(2, 6)
+(1, 4)
+((2, 6), 7)
+(((2, 6), 7), (1, 4))
+((((2, 6), 7), (1, 4)), 3)
+(((((2, 6), 7), (1, 4)), 3), 5)

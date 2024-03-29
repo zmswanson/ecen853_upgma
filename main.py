@@ -67,7 +67,7 @@ def main():
             if not os.path.exists(dm_path):
                 print(f"File {dm_path} does not exist.")
                 sys.exit(1)
-            distance_matrix = np.loadtxt(dm_path, delimiter=',')
+            distance_matrix = np.genfromtxt(dm_path, delimiter=',', dtype=float, filling_values=0)
         
         labels = [f"taxon{i+1}" for i in range(distance_matrix.shape[0])]
 

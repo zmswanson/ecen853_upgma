@@ -1,0 +1,12 @@
+Running example 1. See UNL ECEN-853 lecture notes 7 for more details on the data and expected results.
+
+1: p53
+2: mdm2
+3: bcl2
+4: cyclinE
+5: caspase8
+
+(3, 5)
+(1, 2)
+((1, 2), 4)
+(((1, 2), 4), (3, 5))
